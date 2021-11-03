@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway:wght@400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
+body {
+	background-color: #000;
+	font-family: "Raleway";
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+	font-size: 36px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Raleway";
+	color: #000;
+	font-weight: 300;
+	background-color: #333;
+	border: solid 30px ;
+	border-color: #3bde4b;
+	border-width: thin;
+	color: #3bde4b;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+.center{
+	text-align: center;
+}
+a {
+	padding-left: 30px;
+	color: #f85c37;
+}
+a:hover,a:focus{
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+hr{
+	display: block;
+	height: 1px;
+	border: 0
+	border-top:1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar{
+	
+	font-weight: 600;
+	font-size: 36px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navbar-inverse {
+	height: 145px;
+	background-color:#3d3d3d;
+	border-color: #2d2d2d;
+	background-image: url("../img/bg.png");
+	background-attachment: relative;
+	background-position: center;
+	
+}
+.navbar-inverse .navbar-nav >.active > a{
+	background-color: #595;
+}
+.tyu{
+	background-color: rgba(0, 0, 0, 0);
+}
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bold;
+	font-size: 42px;
+	letter-spacing: 1px;
+}
+#headerwrap {
+	background-color: #2a2a2a;
+	
+	margin-top: -10px;
+	padding-top: 25px;
+	text-align: center;
+	min-height: 500px;
+	width: 100%;
+
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	border-size:cover;
+}
+#headerwrap h1 {
+	margin-top: 200px;
+	/*color: white;*/
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+#headerwrap h2 {
+	color:white;
+	font-size:40px;
+	letter-spacing: 2px;
+	text-transform:uppercase;
+}
+.w {
+	padding-top: 35px;
+	background-color: #e9e9e9;
+}
+.w h4 {
+	font-size: 25px;
+	color: #3d3d3d;
+	font-style: bold;
+}
+.w p{
+	color: #2a2a2a;
+}
+
+#dg{
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+#dg h4 {
+	font-size: 40px;
+}
+
+.tilt{
+	-webkit-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+.tilt:hover{
+	-webkit-transition:rotate(-10deg);
+	-moz-transition:rotate(-10deg);
+	-ms-transition:rotate(-10deg);
+	-o-transition:rotate(-10deg);
+	transition:rotate(-10deg);
+
+}
+#ht{
+	color: white;
+}
+
+/* Set a specific color for each brand */
+.fa {
+  padding: 15px;
+  font-size: 40px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  border-color:#3bde4b ;
+  border-width: medium;
+  background-color: #3bde4b;
+  color: #000;
+  shape-outside: -10px 0 white, 0 10px white, 10px 0 white, 0 -10px white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+/*
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-telegram {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+*/
+.bi-robot {
+  background: #3bde4b;
+  color: black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.bi:hover {
+  opacity: 0.7;
+
+}
+
+/* Set a specific color for each brand */
+.bi {
+  padding: 15px;
+  font-size: 35px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
